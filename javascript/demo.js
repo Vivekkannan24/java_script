@@ -119,6 +119,163 @@
 
 // console.log(person[b])
 
+// object literals
+
+// let bike={
+//     bname :"r15",
+//     bcolor:"black",
+//     bloc :{
+//         district :"chennai",
+//         state : "tamilnadu",
+//         bno :"TN 07 cd 0967"
+//     },
+//     bdetails:{
+//         handed : "2nd hand",
+//         cloc :"redhills"
+//     }
+// };
+// console.log(bike.bcolor);
+// console.log(bike.bname);
+// console.log(bike.bloc.district);
+// console.log(bike.bloc.state);
+
+
+//  object literal 
+
+// function person(){
+//    return{
+//         id :1,
+//         pname : "aarthi", 
+        
+//         devloper :function(){
+//             console.log("i am dot net devloper")
+//         }
+//     };
+// }
+
+// let person1 =person();
+// console.log(person1);
+// person1.devloper();
+
+
+// function classmate(){
+//    return{size :33*21,
+//     mrp : 115,
+//     pages : "228 pages",
+//     type :"ruled",
+
+//         reading : function(){
+//         console.log("hey i am classmate i contain a story of mahabharath inside me ")
+//         }
+//     }
+// }
+
+// let note1 =classmate();
+// console.log(note1);
+// note1.reading();
+
+// constructor function 
+
+    // function Classmate(pages,mrp,size){
+    //     this.pages=pages;
+    //     this.mrp=mrp;
+    //     this.size=size;
+
+    //     this.reading = function(){
+    //         console.log("i can give you a pleasant days all the year");
+    //     }
+    // }
+
+    // const note1= new Classmate(23*12,112,"80 pages");
+    // console.log(note1);
+
+    //internal process of function
+
+
+    // const A =new Function('pages','mrp','size',
+    // `  this.pages=pages;
+    //     this.mrp=mrp;
+    //     this.size=size;
+
+    //     this.reading = function(){
+    //     console.log("i can give you a pleasant days all the year");
+    // }`);
+    
+    // const b = new A("256","112","12*1");
+    // console.log(b) 
+
+    // creating instance of object
+    // function Circle(radius){
+    //     this.radius=radius;
+
+    //     this.driving=function(){
+    //         console.log("i love driving");
+    //     }
+    // }
+    
+
+    // let c=new Circle({},[1,2,3,4])
+    // console.log(c.radius)
+
+// Accesing value using []notation
+    // Circle['radius']=2;
+
+    // console.log(Circle['radius'])
+// const circle1=new Circle(20);
+
+// to read keys in object
+// for(let key in circle1){
+//     console.log(key)
+// }
+
+// to read key and value in object
+
+// for(let key in circle1){
+//     console.log(key,circle1[key]);
+// }
+
+// const keys=Object.keys(circle1);
+// console.log(keys);
+
+
+// function Circle(radius){
+//     this.radius=radius;
+
+//     this.driving=function(){
+//         console.log("i love driving");
+//     }
+// }
+
+// let circle1=new Circle(10);
+
+// let c=Object.keys(circle1);
+
+// console.log(c)
+
+
+// constructor function 
+
+//  function Classmate(pages,mrp,){
+//      this.pages=pages;
+//      this.mrp=mrp;
+//      let size=10;
+ 
+//      this.reading = function(){
+//          console.log("i can give you a pleasant days all the year");
+//      }
+//  }
+
+//     let a=new Classmate(100,122);
+//     console.log(a);
+
+//     Object.defineProperty(this,'size',{
+//         get:function() {
+//             return size;
+//         }
+//     });
+
+
+
 
 
 
